@@ -1,0 +1,90 @@
+{
+  "name": "Celestial iOS Repo",
+  "subtitle": "discord.gg/celestialios",
+  "description": "Welcome to Celestial, your source for the Epic Games Store IPA files, updated shortly after game updates are pushed.",
+  "iconURL": "https://media.discordapp.net/attachments/1277817608099332201/1277824741918642267/IMG_2150.png?ex=66ce9287&is=66cd4107&hm=183a1fd8707ec4f2abd0a141faf1fc9b8a2a5d1345aa3a837655f82c0e8185a8&",
+  "headerURL": "https://media.discordapp.net/attachments/1277817608099332201/1277824741918642267/IMG_2150.png?ex=66ce9287&is=66cd4107&hm=183a1fd8707ec4f2abd0a141faf1fc9b8a2a5d1345aa3a837655f82c0e8185a8&",
+  "website": "https://github.com/atellies/EpicGamesStoreIPA",
+  "tintColor": "#4185A9",
+  "featuredApps": [
+    "uk.co.mediatonic.fallguys",
+    "com.epicgames.FortniteGame"
+  ],
+  "apps": [
+    {
+      "name": "Fortnite",
+      "bundleIdentifier": "com.epicgames.FortniteGame",
+      "developerName": "Epic Games & Celestial iOS",
+      "subtitle": "REQUIRED - Paid Developer Certificate ",
+      "localizedDescription": "It’s Fortnite, ported by Celestial Devs.\n\nRequires Paid Developer Certificate\n\nFortnite has special entitlements that cannot be removed, requiring a paid dev cert or TrollStore.",
+      "iconURL": "https://cdn.discordapp.com/attachments/1277812554680500254/1277815911663009884/83710856-94A3-4E83-B15A-17E138DA5813.jpg?ex=66ce8a4e&is=66cd38ce&hm=86bdd99bb85f7299c6bcf5d381f2571305bb03a85b42cb21fac0f02688945881&",
+      "tintColor": "#5CA399",
+      "screenshots": [
+        "https://cdn2.unrealengine.com/header-image---final-frame-1920x1080-af4fcd1a8d7f.jpg",
+        "https://cdn2.unrealengine.com/mobile-rewards-1920x1080-997ddd06b569.jpg?resize=1&w=1280",
+        "https://cdn2.unrealengine.com/keyart-line-up-1920x1080-f4176c0c50b1-1920x1080-b430a77b3e5e.jpg?resize=1&w=1280"
+      ],
+      "versions": [
+        {
+          "version": "31.00.2",
+          "date": "2024-09-27T09:00:00-08:00",
+          "size": 20000000,
+          "downloadURL": "https://github.com/atellies/EpicGamesStoreIPA/releases/download/latest/Fortnite.31.00.2+UPD.ipa",
+          "localizedDescription": "Latest Version of Fortnite; REQUIRES PAID DEVELOPER CERTIFICATE",
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.extended-virtual-addressing"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "This permission is not requested or used and will be removed in a future version of the game.",
+          "NSMicrophoneUsageDescription": "Fortnite needs microphone access for voice chat."
+        }
+      }
+    },
+    {
+      "name": "Fall Guys",
+      "bundleIdentifier": "uk.co.mediatonic.fallguys",
+      "developerName": "Mediatonic & Celestial Devs",
+      "subtitle": "Fall Guys for iOS",
+      "localizedDescription": "This is Fall Guys.",
+      "iconURL": "https://cdn.discordapp.com/attachments/1277812554680500254/1277812656954151045/5F10442E-A573-4964-856C-DC3D996AEE3D.jpg?ex=66ce8746&is=66cd35c6&hm=1e00a7acc2d76815786f959c4df024683c945d2aa0992b9533db89841a7e64e1&",
+      "tintColor": "#3660A2",
+      "screenshots": {
+        "Index 0": "https://cdn2.unrealengine.com/fall-guys-holobean-costume-and-yeetus-hammer-1600x900-3319e678e7fb.png?resize=1&w=558"
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2024-09-21T09:00:00-08:00",
+          "downloadURL": "https://github.com/atellies/EpicGamesStoreIPA/releases/download/latest/FallGuys.ipa",
+          "localizedDescription": "Latest Version",
+          "size": 1710000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "The microphone is used by this app for voice chat with other players in your party"
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "Celestial Repo Released!",
+      "identifier": "new_feature",
+      "caption": "Introducing Celestial iOS! The best place to get the latest updates for Epic Games Store apps!",
+      "date": "2024-09-28",
+      "tintColor": "#5CA399",
+      "imageURL": "https://example.com/new_feature_image.png",
+      "notify": true,
+      "url": "https://github.com/atellies/EpicGamesStoreIPA"
+    }
+  ]
+}
