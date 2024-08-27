@@ -8,12 +8,12 @@
   "tintColor": "#4185A9",
   "featuredApps": [
     "uk.co.mediatonic.fallguys",
-    "com.epicgames.FortniteGame"
+    "com.Celestial.Fortnite"
   ],
   "apps": [
     {
       "name": "Fortnite",
-      "bundleIdentifier": "com.epicgames.FortniteGame",
+      "bundleIdentifier": "com.Celestial.Fortnite",
       "developerName": "Epic Games & Celestial iOS",
       "subtitle": "REQUIRED - Paid Developer Certificate ",
       "localizedDescription": "It’s Fortnite, ported by Celestial Devs.\n\nRequires Paid Developer Certificate\n\nFortnite has special entitlements that cannot be removed, requiring a paid dev cert or TrollStore.",
